@@ -1,0 +1,16 @@
+#!/usr/bin/env python
+
+from most_ac_cookie import get_parameters, get_data , get_dataframe
+import unittest
+import pytest
+
+f,d = get_parameters()
+cookie_data = get_data(str(f))
+
+max_occurance = get_dataframe(cookie_data,d)
+
+if max_occurance == '':
+    max_occurance = ''
+else:  
+    max_occurance = '\n'.join(get_dataframe(cookie_data,d))
+print(max_occurance)
