@@ -22,3 +22,6 @@ most languages which make this too easy (e.g pandas) and we’d like you to show
 - **Language Used - Python3**
 - **Library for CLI Parsing - Argeparse**
 - **Libarray used for testing - pytest**
+
+To run tests:
+*  Go to tests directory and type pytest in command line
